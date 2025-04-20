@@ -9,7 +9,7 @@ jobs:
     - name: Repeat Backfill
       uses: bcanseco/github-contribution-graph-action@v2
       with:
-        run_times: 5 # Tentukan berapa kali kamu ingin mengulangi proses backfill
+        run_times: 1 # Tentukan berapa kali kamu ingin mengulangi proses backfill
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         GIT_EMAIL: jimelkosongepep@gmail.com # replace me
